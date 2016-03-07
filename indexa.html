@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TOKO LOAK (JSON angularjs)</title>
+<link rel="stylesheet" type="text/css" href="css/latih.css" />
+
+</head>
+<body ng-app="app">
+
+	<div id="bungkus">
+		<div id="header">TOKO LOAK (JSON versi angularjs)</div>
+
+		<div id="wrapnavconten">
+			<div id="navigasi">
+				<ul>
+					<li class='aktifnav'><a href='#'>home</a></li>
+				</ul>
+			</div>
+			<div id="conten">
+			
+			<div ng-controller="BabeController">
+			<!-- edit/tambah babe BEGIN-->
+			<h2>{{editBabeTitle}}</h2>
+			<p>deskripsi: <input type="text" ng-model="babe.desk"></p>
+			<p>qty balance: <input type="text" ng-model="babe.balance"></p>
+			<p>vendor: <input type="text" ng-model="babe.vendor"></p>
+			<p>tipe: <input type="text" ng-model="babe.tipe"></p>
+
+			<button type="submit" class="btn btn-primary" ng-click="tambah()" ng-show="!buttonupdate">
+			   Tambah <i class="glyphicon glyphicon-plus"></i>
+			</button>
+			
+			<button type="submit" class="btn btn-primary" ng-click="ubah(babe)" ng-show="buttonupdate">
+			   Ubah <i class="glyphicon glyphicon-edit"></i>
+			</button>
+
+			<button type="submit" class="btn btn-primary" ng-click="batal()" ng-show="buttonupdate">
+			   Batal <i class="glyphicon glyphicon-refresh"></i>
+			</button>
+			<!-- edit/tambah babe END-->
+
+
+
+				<h1>{{message}}</h1>
+				
+			
+			<!-- LIST babe -->
+			<h2>List</h2>
+			
+			
+			<p>
+			masukan halaman: <input type="text" ng-model="currentPage">
+			<input type="button" value="ok" class="btn btn-primary" ng-click="paging(currentPage)"/>
+			</p>
+			<p>
+			
+			<button type="submit" class="btn btn-primary" ng-click="pagingbefore()">
+			  <i class="glyphicon glyphicon-chevron-left"></i> sebelum
+			</button>
+			
+			<button type="submit" class="btn btn-primary" ng-click="pagingnext()">
+			   sesudahnya <i class="glyphicon glyphicon-chevron-right"></i>
+			</button>
+			
+			batas halaman (isi 3): {{jumlah}}
+			</p>
+
+		<table border="1" class="cTableBarang">
+					<tr>
+						<th>Deskripsi</th>
+						<th>Tersedia</th>
+						<th>vendor</th>
+						<th>tipe</th>
+						<th></th>
+						<th></th>						
+					</tr>
+					<tbody ng-repeat='babe in babes'>
+						<tr>
+							<td>{{babe.desk}}</td>
+							<td>{{babe.balance}}</td>
+							<td>{{babe.vendor}}</td>
+							<td>{{babe.tipe}}</td>
+							<td><a href ng-click='hapus(babe)'>hapus</a></td>
+							<td><a href ng-click='isiForm(babe)'>update</a></td>
+						
+						</tr>
+					</tbody>
+		</table>
+			</div>
+		</div>
+</div>
+		<div id="infobawah">2016</div>
+	</div>
+	
+		<script src="js/angular.js"></script>
+		<script src="js/appclient.js"></script>
+			
+</body>
+</html>

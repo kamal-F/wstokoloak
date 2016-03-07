@@ -1,0 +1,147 @@
+ /* Intrinsic HTML Elements */
+body{margin:0;padding:0; background-color:#DBEAF9;}
+div{margin:0;padding:0;}
+
+
+#bungkus{
+	width:750px;margin:0 auto;	
+	background-color:#EFEFEF;
+}
+#header{
+	
+	text-align:center;	
+	color:white;
+	background-color:#CC33FF;
+	padding: 10px;
+	-moz-border-radius: 8px 8px 0 0;
+	font-size: 22px;
+	font-family: arial;
+}
+#wrap1{
+	width:117px;float:left;    
+	/*background-color:#307ab8;*/	
+}
+#wrapnavconten{
+	width:630px;float:left;background:#ffffff;
+	border:1px double black;
+		
+}
+#navigasi{	
+	color:white;	
+	background-color:rgb(119, 119, 119);
+}
+#navigasi h1{
+	font-size:124px;
+}
+#navigasi ul{
+font-size: 125%;
+list-style: disc outside none;
+margin:0;
+padding:0;
+margin-top : 1px;
+margin-left: 1px;
+}
+#navigasi li{
+    background: none repeat scroll 0% 0% purple;
+    display: block;
+    float: left;
+    margin-right: 3px;    
+    border-radius: 11px 35px 11px 35px;
+}
+
+#navigasi a{	
+	color:white;
+	padding: 6px 12px;
+	text-decoration: none;
+}
+#navigasi a:hover{
+	color:red;
+}
+#navigasi .aktifnav a{
+	color:red;
+}
+#Menu {
+	background-color:#9E9EE5;
+	margin-top:-16px;	  
+}	
+
+#logo{	
+	color:blue;
+	background-image:url(../images/test.gif);
+	background-repeat:no-repeat;
+	height:110px;	
+}
+
+#conten {   
+	padding:5px;
+	font-size:12px;
+	clear:both;
+	/*background-color:green;*/
+	margin-top:-16px;
+}
+
+#infobawah{
+	text-align:center;
+	color:white;
+	background-color:#CC33FF;	
+    clear: both;    
+    padding: 10px;
+	-moz-border-radius: 0 0 8px 8px;
+}
+
+#Menu ol,ul{
+color: black;
+margin: 10px;
+padding: 10px;
+}
+#Menu li {
+    /*list-style: none outside none;*/
+	/*list-style:none;
+	margin-left:-20px;*/
+	list-style-type:none;padding:5px 10px 5px 10px;
+}
+#Menu li a:link, #Menu li a:visited {
+    display: block;
+	color:white;
+	font-style:normal;
+	font-size:12px;
+}
+#Menu li a:hover {
+    background-color: #a6aff0;    
+	font-style:oblique;
+	font-size:13px;
+}
+
+
+#Menu h1{
+	font-size:20px;
+	color:white;
+}
+
+.cTableBarang{
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	color: purple;
+}
+.cTableBarang th{
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: purple;
+	color: red;
+}
+
+.cTableBarang td{
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffcdff;
+	color: red;
+	text-align: right;
+}
