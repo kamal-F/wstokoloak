@@ -1,5 +1,5 @@
 # wstokoloak
-**Toko Loak** sebagai client dari jayagrosir  
+**Toko Loak** sebagai **client** dari **PT Jaya grosir**  
 ##Penggunaan
 alamat| service
 ------------ | -------------
