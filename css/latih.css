@@ -146,8 +146,7 @@ padding: 10px;
 	text-align: right;
 }
 
-#headerjson{
-	
+#headerjson{	
 	text-align:center;	
 	color:white;
 	background-color:#FF9228;
@@ -160,6 +159,24 @@ padding: 10px;
 	text-align:center;
 	color:white;
 	background-color:#FF9228;	
+    clear: both;    
+    padding: 10px;
+	-moz-border-radius: 0 0 8px 8px;
+}
+
+#headerangular{	
+	text-align:center;	
+	color:white;
+	background-color:#0F6B01;
+	padding: 10px;
+	-moz-border-radius: 8px 8px 0 0;
+	font-size: 22px;
+	font-family: arial;
+}
+#infobawahangular{
+	text-align:center;
+	color:white;
+	background-color:#0F6B01;	
     clear: both;    
     padding: 10px;
 	-moz-border-radius: 0 0 8px 8px;
