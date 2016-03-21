@@ -25,10 +25,18 @@
 		$client2 = new SoapClient ( $wsdl );
 		
 		//if post
+		/*
 		$desk = $_POST['desk'];
 		$balance = $_POST['balance'];
 		$vendor = $_POST['vendor'];
 		$tipe =  $_POST['tipe'];
+		*/
+		
+		isset($_POST['desk'])?$desk = $_POST['desk']:$desk = null;
+		isset($_POST['balance'])?$balance = $_POST['balance']:$balance = null;
+		isset($_POST['vendor'])?$vendor = $_POST['vendor']:$vendor = null;
+		isset($_POST['tipe'])?$tipe = $_POST['tipe']:$tipe = null;
+		
 		
 		if(	isset($desk) && is_numeric($balance) && is_numeric($vendor) && 	is_numeric($tipe))
 		{

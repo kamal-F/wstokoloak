@@ -35,7 +35,7 @@
 		</div>
 	</div>
 	
-	<div id="infobawah">2013</div>
+	<div id="infobawah">2016</div>
 </div>
 </body>
 </html>
