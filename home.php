@@ -10,7 +10,7 @@
 
 
 	<div id="bungkus">
-		<div id="header">TOKO LOAK (JSON)</div>
+		<div id="headerjson">TOKO LOAK (JSON)</div>
 
 		<div id="wrapnavconten">
 			<div id="navigasi">
@@ -39,7 +39,7 @@
 			</div>
 		</div>
 
-		<div id="infobawah">2013</div>
+		<div id="infobawahjson">2016</div>
 	</div>
 </body>
 </html>

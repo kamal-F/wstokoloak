@@ -145,3 +145,22 @@ padding: 10px;
 	color: red;
 	text-align: right;
 }
+
+#headerjson{
+	
+	text-align:center;	
+	color:white;
+	background-color:#FF9228;
+	padding: 10px;
+	-moz-border-radius: 8px 8px 0 0;
+	font-size: 22px;
+	font-family: arial;
+}
+#infobawahjson{
+	text-align:center;
+	color:white;
+	background-color:#FF9228;	
+    clear: both;    
+    padding: 10px;
+	-moz-border-radius: 0 0 8px 8px;
+}
