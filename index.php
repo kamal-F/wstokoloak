@@ -15,7 +15,8 @@
 	<div id="wrapnavconten">		
 		<div id="navigasi">
 		  <ul>
-		    <li class='aktifnav'><a href='#'>home</a></li>		    
+		    <li class='aktifnav'><a href='#'>home</a></li>
+		    <li class='aktifnav'><a href='tambah.php'>tambah</a></li>		    
 		  </ul>
 		</div>
 		<div id="conten">
