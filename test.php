@@ -12,6 +12,7 @@ echo '<br>';
 $hasil2 =$client2->getBarangBekas(array('in'=>2));
 $babe= $hasil2->out;
 
+
  foreach ($babe as $val){
 	//object
 	echo $val->desk.'	'.$val->balance;
